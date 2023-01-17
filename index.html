@@ -3,11 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebsiteGame</title>
+    <title>Mira Heckmann</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Krona+One&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div id="divider">
+    <header >
+      <div id="header-container">
+      <h2>MIRA HECKMANN</h2>
+ 
+        <div id="header-right">
+          <h4>About</h4>
+          <h4>Experience</h4>
+          <h4>Projects</h4>
+        </div>
+      </div>
+  
+      <!-- <h3>Software Engineer</h3> -->
+  </header>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -20,9 +40,22 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">WebsiteGame</div>
+        <div id="unity-build-title">Created by: Mira Heckmann</div>
       </div>
     </div>
+    <div id="portfolio-container">
+
+    <div class="section" id="about">
+      <h3>About</h3>
+    </div>
+    <div class="section" id="experience">
+      <h3>Experience</h3>
+    </div>
+    <div class="section" id="projects">
+      <h3>Projects</h3>
+    </div>
+    
+  </div>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -62,8 +95,8 @@
         frameworkUrl: buildUrl + "/Builds.framework.js",
         codeUrl: buildUrl + "/Builds.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "WebsiteGame",
+        companyName: "Mira Heckmann",
+        productName: "Mira Heckmann",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -117,5 +150,6 @@
       };
       document.body.appendChild(script);
     </script>
+    </div>
   </body>
 </html>
