@@ -20,9 +20,11 @@
       <h2>MIRA HECKMANN</h2>
  
         <div id="header-right">
-          <h4>About</h4>
-          <h4>Experience</h4>
-          <h4>Projects</h4>
+          <!-- <h4><a id="about">About</a></h4>
+          <h4>Experience</h4> -->
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#experience">Experience</a>
+          <a class="link" href="#projects">Projects</a>
         </div>
       </div>
   
@@ -47,12 +49,43 @@
 
     <div class="section" id="about">
       <h3>About</h3>
+      <div id="about-section">
+        <img src="./TemplateData/me.jpg" width="400px"></img>
+        <p id="about-paragraph"><b>Software Engineer</b> with experience in <b>Full Stack Development</b> and <b>Testing</b>, with an interest in <b>Unity</b> and <b>Game Development</b> </p>
+      <div id="links"><a href="https://www.linkedin.com/in/miraheckmann/" target="_blank">LinkedIn</a href="https://github.com/Mheckmann7"><a>GitHub</a></div>
+      </div>
+      
+
+      <div class="badges">
+        <div data-iframe-width="200" data-iframe-height="300" data-share-badge-id="9bb647f7-7e21-47c9-8958-4d1a992e7a87" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      </div>
+      
     </div>
     <div class="section" id="experience">
       <h3>Experience</h3>
+      <h4>American Robotics - Software Engineer, Waltham MA </h4>
+      <p>
+        I contributed to the both the companies customer facing portal (ScoutView), and operator facing portal (ScoutOps). Initially I was tasked with setting up the test infrastructure for ScoutView, which I acheived using the Jest and Pupetteer frameworks integrated with Jenkins to create a complete end to end test pipeline.
+        Both sites utilize ReactJS, TypeScript and Mapbox. 
+        Within ScoutOps I contributed to server architecture using Python and ReactJS to read proto messages and create API routes to display drone telemetry data. 
+    
+      </p>
+      <p>Tech Stack: ReactJS, TypeScript, Python, MaterialUI, Jest, Puppeteer, MySQL, Jenkins, Linux (Ubuntu), Git, GitHub Actions, Figma, Jira</p>
+        <h4>Facebook - Software QA Test Engineer, Menlo Park CA</h4>
+      <p>
+        I worked exclusively with Oculus Quest, 
+        including the Quest App <b><a href="https://www.meta.com/work/workrooms/" target="_blank">Horizon Workrooms</a></b> from Pre-Alpha to realease
+        Created Python scripts to automate the process of Qfilling and flashing initial Quest 2 prototype devices. Debugged hardware and software complications.  
+        Worked on identifying areas of improvement for Horizon Workrooms  from pre-alpha to alpha using Agile Methodologies.
+        Wrote and conducted tests with a sample size of 100-300 internal employees on specific app features, analyzed results from said tests.
+      </p>
+      <p>Tech Stack: Python, Unity, Unity AR/VR, Oculus Quest</p>
     </div>
     <div class="section" id="projects">
       <h3>Projects</h3>
+      <h4>Personal Portfolio Website</h4>
+      <p>My old portfolio website created using ReactJS and the Google Maps API to create an interactive map of places that I've been. This site contains many examples of my older projects.</p>
+
     </div>
     
   </div>
